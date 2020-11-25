@@ -1,6 +1,21 @@
-body {
+html, body {
+  min-height: 100%;
   margin: 0;
   height: 100vh;
   overflow: hidden;
-  background: blue;
+  background: #9bf7ea;
+}
+header {
+  background-color: black;
+  border-bottom-right-radius: 46px;
+  padding: 25px;
+}
+footer {
+ background-color: #47948a;
+ border-top-left-radius: 46px;
+ padding: 10px;
+ position: absolute;
+ bottom: 0;
+ height: 10px;
+ width: 100%;
 }
