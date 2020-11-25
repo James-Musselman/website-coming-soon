@@ -3,10 +3,10 @@ html, body {
   margin: 0;
   height: 100vh;
   overflow: hidden;
-  background: #9bf7ea;
+  background: black;
 }
 header {
-  background-color: black;
+  background-color: skyblue;
   border-bottom-right-radius: 46px;
   padding: 5px;
 }
@@ -20,6 +20,25 @@ footer {
  width: 100%;
 }
 .logo {
-  max-width: 65%;
+  max-width: 35%;
 
+}
+.middle {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.footer_link {
+  text-align: right;
+  padding-inline-end: 20px;
+  text-decoration:none;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
